@@ -1,0 +1,6 @@
+
+modules:
+    campaignchain-mailchimp-user:
+        display_name: MailChimp user
+        description: MailChimp account owner.
+        hooks:

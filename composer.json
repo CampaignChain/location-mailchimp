@@ -1,0 +1,33 @@
+{
+    "name": "campaignchain/location-mailchimp",
+    "description": "MailChimp account owner and newsletter Location.",
+    "type": "campaignchain-location",
+    "license": "Apache-2.0",
+    "homepage": "http://www.campaignchain.com",
+    "authors": [
+        {
+            "name": "Sandro Groganz",
+            "email": "sandro@campaignchain.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": { "CampaignChain\\Location\\MailChimpBundle\\": "" }
+    },
+    "extra": {
+        "campaignchain": {
+            "kernel": {
+                "classes": [
+                    "CampaignChain\\Location\\MailChimpBundle\\CampaignChainLocationMailChimpBundle"
+                ],
+                "routing":
+                {
+                    "name": "campaignchain_location_mailchimp",
+                    "resource": "@CampaignChainLocationMailChimpBundle/Resources/config/routing.yml",
+                    "prefix": "/"
+                }
+            }
+        }
+    }
+}
