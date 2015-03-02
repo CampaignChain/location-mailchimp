@@ -2,5 +2,7 @@
 modules:
     campaignchain-mailchimp-user:
         display_name: MailChimp user
-        description: MailChimp account owner.
-        hooks:
+        description: Location of a MailChimp account owner.
+    campaignchain-mailchimp-newsletter:
+        display_name: MailChimp newsletter
+        description: The Location of a MailChimp email campaign.
