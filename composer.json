@@ -1,6 +1,6 @@
 {
     "name": "campaignchain/location-mailchimp",
-    "description": "MailChimp account owner and newsletter Location.",
+    "description": "Holds informaiton about a MailChimp account owner and newsletter Locations.",
     "keywords": ["mailchimp","campaignchain"],
     "type": "campaignchain-location",
     "license": "Apache-2.0",
