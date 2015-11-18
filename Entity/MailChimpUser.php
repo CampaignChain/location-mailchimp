@@ -11,6 +11,7 @@
 namespace CampaignChain\Location\MailChimpBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use CampaignChain\CoreBundle\Util\ParserUtil;
 
 /**
  * @ORM\Entity
@@ -274,7 +275,7 @@ class MailChimpUser
      */
     public function setWebsiteUrl($websiteUrl)
     {
-        $this->websiteUrl = $websiteUrl;
+        $this->websiteUrl = ParserUtil::sanitizeUrl($websiteUrl);
 
         return $this;
     }
