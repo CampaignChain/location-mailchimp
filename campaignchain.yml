@@ -3,6 +3,10 @@ modules:
     campaignchain-mailchimp-user:
         display_name: MailChimp user
         description: Location of a MailChimp account owner.
+        channels:
+            - campaignchain/channel-mailchimp/campaignchain-mailchimp
     campaignchain-mailchimp-newsletter:
         display_name: MailChimp newsletter
         description: The Location of a MailChimp email campaign.
+        channels:
+            - campaignchain/channel-mailchimp/campaignchain-mailchimp
