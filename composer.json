@@ -17,7 +17,7 @@
         "docs": "http://doc.campaignchain.com"
     },
     "require": {
-        "campaignchain/channel-mailchimp": "dev-master"
+        "campaignchain/channel-mailchimp": "1.0.x-dev"
     },
     "autoload": {
         "psr-4": { "CampaignChain\\Location\\MailChimpBundle\\": "" }
